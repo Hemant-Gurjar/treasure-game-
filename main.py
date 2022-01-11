@@ -24,16 +24,16 @@ print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 
 step1 = input(
-    'You\'re at a crossroad. Where do you want to go? Type "left" or "right" '
+    'You\'re at a crossroad. Where do you want to go? Type "left" or "right"\n'
 ).lower()
 
 if step1 == "left":
     step2 = input(
-        'You\'ve come to a lake. There is an island in the center of the lake. Type "wait" to waitfor the boat. or Type "swim" to swim across?'
+        'You\'ve come to a lake. There is an island in the center of the lake. Type "wait" to waitfor the boat. or Type "swim" to swim across?\n'
     ).lower()
     if step2 == "wait":
         step3 = input(
-            "You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?"
+            "You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?\n"
         ).lower()
         if step3 == "yellow":
             print("Congratulations..! You win a piece of shit")
